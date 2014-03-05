@@ -20,12 +20,12 @@ Second, I made the page itself by right-clicking on the templates and creating a
 
 Third, I copied the contents of the "404.html" and pasted it all in the new "about.html". I then modified the contents and added in some html tags.
 This is weirding Nitrous.io out, so I am commenting it here in the post
-{% extends "layout.html" %}
+
 ```
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+{% extends "layout.html" %}
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
   </head>
 {% block content %}
