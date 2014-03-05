@@ -25,7 +25,7 @@ Third, I copied the contents of the "404.html" and pasted it all in the new "abo
 <html lang="en">
     <head>
 {% extends "layout.html" %}
-{% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
+{% block title %}<title>{{% config.BLOG_TITLE %}}</title>{% endblock %}
   </head>
 {% block content %}
 	<h1>About Me</h1>
