@@ -25,7 +25,8 @@ Third, I copied the contents of the "404.html" and pasted it all in the new "abo
 <!DOCTYPE html>
 <html lang="en">
     <head>
-{% extends "layout.html" %}
+#This is weirding Nitrous.io out, so I am commenting it here in the post
+#{% extends "layout.html" %}
 {% block title %}<title>{{ config.BLOG_TITLE }}</title>{% endblock %}
   </head>
 {% block content %}
