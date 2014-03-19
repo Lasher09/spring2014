@@ -2,7 +2,6 @@
 layout: post
 author: sunhwap
 title: pipes and filter
-date: 2014-03-13
 ---
 
 ## Pipes and filter exercises
