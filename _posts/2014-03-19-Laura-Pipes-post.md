@@ -1,5 +1,5 @@
 ---
-layout: apost
+layout: post
 author: laura
 title: Pipes Assignment
 date: 2014-03-19
